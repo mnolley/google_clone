@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+* { 
+  outline: 1px solid black;
+  font-family: arial, sans-serif; 
+}
+*/
+html {
+display: block;
+}
+
+body {
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: .8125em;
+color: #262626;
+width: 100%;
+text-align: center;
+margin: 0px auto;
+font-weight: normal;
+height: 100%;
+display: block;
+}
+
+div {
+	display: block;
+}
+
+header {
+margin-bottom: 150px;
+min-width: 1000px;
+}
+
+nav {
+border-width: 1px;
+text-align: right;
+margin-right: 20px;
+line-height: 0px;
+vertical-align: middle;
+position: relative;
+}
+
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+nav li {
+display: inline;
+vertical-align: middle;
+}
+
+li {
+display: list-item;
+text-align: -webkit-match-parent;
+list-style: none;
+}
+
+nav a {
+padding: 5px;
+display: inline-block;
+}
+
+a {
+text-decoration: none;
+color: #222;
+}
+
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+
+header nav ul li a img {
+margin-top: 0px;
+position: relative;
+top: 0.45em;
+}
+
+#sign_in:hover {
+background-color: #e6e6e6;
+-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .30);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, .30);
+}
+
+nav a button {
+font-size: .9em;
+font-weight: bold;
+background-image: -webkit-linear-gradient(270deg,rgba(66,136,241,1.00) 0%,rgba(45,123,239,1.00) 99.98%);
+background-image: -moz-linear-gradient(270deg,rgba(66,136,241,1.00) 0%,rgba(45,123,239,1.00) 99.98%);
+background-image: -o-linear-gradient(270deg,rgba(66,136,241,1.00) 0%,rgba(45,123,239,1.00) 99.98%);
+background-image: linear-gradient(180deg,rgba(66,136,241,1.00) 0%,rgba(45,123,239,1.00) 99.98%);
+-webkit-border-radius: 3px;
+border-radius: 3px;
+color: #FFFFFF;
+padding-top: 8px;
+padding-right: 15px;
+padding-bottom: 8px;
+padding-left: 15px;
+border-color: #FFFFFF;
+border-width: 0px;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+align-items: flex-start;
+text-align: center;
+cursor: default;
+color: buttontext;
+padding: 2px 6px 3px;
+border: 2px outset buttonface;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+background-color: buttonface;
+box-sizing: border-box;
+}
+
+input, textarea, keygen, select, button, isindex {
+margin: 0em;
+font: -webkit-small-control;
+color: initial;
+letter-spacing: normal;
+word-spacing: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: start;
+}
+
+input, textarea, keygen, select, button, isindex, meter, progress {
+-webkit-writing-mode: horizontal-tb;
+}
+
+button {
+-webkit-appearance: button;
+}
+
+footer {
+background: #f2f2f2;
+border-top: 1px solid #e4e4e4;
+line-height: 40px;
+width: 100%;
+vertical-align: middle;
+position: fixed;
+bottom: 0px;
+left: 0px;
+min-width: 100px;
+list-style: none;
+}
+
+#footer_left {
+	text-align: left;
+}
+
+#footer_right {
+text-align: right; 
+}
+
+#googlesearch {
+	width: 525px;
+	height 25px;
+	border: 1px solid #cdcdcd;
+	background:url ("https://dl.dropboxusercontent.com/u/269637369/google_clone/images/microphone.png");
+	background-size: 25px;
+	font-size: 1.3em;
+}
+
+.button:hover {
+background-color: #e6e6e6;
+-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, .43);
+box-shadow: 0px 1px 1px rgba(0, 0, 0, .43);
+color: #222222;
+}
+
+form input.button {
+margin: 15px 5px;
+font-size: .880em;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+text-indent: 0px;
+border: 1px solid #dcdcdc;
+color: #363636;
+font-weight: bold;
+height: 30px;
+text-decoration: none;
+text-align: center;
+background-image: -webkit-linear-gradient(270deg,rgba(240,240,240,1.00) 0%,rgba(222,219,219,1.00) 100%);
+background-image: -moz-linear-gradient(270deg,rgba(240,240,240,1.00) 0%,rgba(222,219,219,1.00) 100%);
+background-image: -o-linear-gradient(270deg,rgba(240,240,240,1.00) 0%,rgba(222,219,219,1.00) 100%);
+background-image: linear-gradient(180deg,rgba(240,240,240,1.00) 0%,rgba(222,219,219,1.00) 100%);
+}
+
+#Google form {
+margin-top: 10px;
+color: #222;
+}
